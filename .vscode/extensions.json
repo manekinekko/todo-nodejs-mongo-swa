@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-azurefunctions",
+    "ritwickdey.LiveServer",
+    "ms-azuretools.azure-dev"
+  ]
+}

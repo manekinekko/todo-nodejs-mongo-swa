@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.0.2"
+  },
+  "scripts": {
+    "postinstall": "npm install --prefix src/web && npm install --prefix src/api && npm run env",
+    "env": "azd env get-values > .env",
+    "swa": "swa",
+    "start": "npm run env && swa start",
+    "deploy": "azd up"
+  }
+}
