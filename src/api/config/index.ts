@@ -20,7 +20,6 @@ const getConfig: () => Promise<AppConfig> = async () => {
     };
 };
 
-// Hello Java!
 export async function initializeConfiguration() {
 
     const config = await getConfig();
