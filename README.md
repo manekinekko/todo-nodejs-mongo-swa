@@ -35,7 +35,7 @@ The fastest way for you to get this application up and running on Azure is to us
 1. Run the following command to initialize the project, provision Azure resources, and deploy the application code.
 
 ```bash
-azd up --template todo-nodejs-mongo-swa
+azd up --template manekinekko/todo-nodejs-mongo-swa
 ```
 
 You will be prompted for the following information:
